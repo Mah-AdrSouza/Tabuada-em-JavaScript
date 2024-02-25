@@ -1,2 +1,2 @@
 # Tabuada
- Exercício de JavaScript sobre como fazer a tabuada do número 1 ao número 9.
+ Exercício de JavaScript que captura o evento de botões com números na tela e mostra automaticamente a tabuada desse número abaixo.
