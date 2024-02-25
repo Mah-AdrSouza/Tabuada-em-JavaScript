@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+      fieldset{
+        width: 20%;
+        height: 30%;
+        padding: 3%;
+        margin-top: 2%;
+      }
+      nav{
+       margin-top: 2%;
+      }
+      button{
+        width: 25%;
+        height: 100%;
+        background-color: white;
+      }
+      body{
+        background: rgb(3,0,57);
+        background: linear-gradient(90deg, rgba(3,0,57,1) 6%, rgba(9,189,226,1) 93%);
+      }
+      @font-face{
+	    font-family: "Smoothy Butter";
+	    src: url("../fonts/smoothy_butter/smoothy_butter.otf");
+      }
+      .font-smoothy{
+      font-family: "Smoothy Butter";
+      color: lightblue;
+      width: 69%;
+      height: 40%;
+      text-shadow: 0.1em 0.1em #000000;
+      }
+      h3{
+      font-size: 70px;
+      font-family: "Smoothy Butter";
+      margin-bottom: 1%;
+      }
+      button{
+        width: 50px;
+        height: 50px;
+        font-size: large;
+      }
+      hr{
+        width: 80%;
+      }
+      </style>
+
+<!--[if gte mso 9]><xml>
+<mso:CustomDocumentProperties>
+<mso:xd_Signature msdt:dt="string"></mso:xd_Signature>
+<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor msdt:dt="string">LUCIO DA SILVA DONATI</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor>
+<mso:Order msdt:dt="string">1700.00000000000</mso:Order>
+<mso:xd_ProgID msdt:dt="string"></mso:xd_ProgID>
+<mso:_ExtendedDescription msdt:dt="string"></mso:_ExtendedDescription>
+<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author msdt:dt="string">LUCIO DA SILVA DONATI</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author>
+<mso:ComplianceAssetId msdt:dt="string"></mso:ComplianceAssetId>
+<mso:TemplateUrl msdt:dt="string"></mso:TemplateUrl>
+<mso:ReferenceId msdt:dt="string"></mso:ReferenceId>
+<mso:ContentTypeId msdt:dt="string">0x010100CD9D91C16B66984296006CAEE7B846D0</mso:ContentTypeId>
+<mso:TriggerFlowInfo msdt:dt="string"></mso:TriggerFlowInfo>
+<mso:_SourceUrl msdt:dt="string"></mso:_SourceUrl>
+<mso:_SharedFileIndex msdt:dt="string"></mso:_SharedFileIndex>
+</mso:CustomDocumentProperties>
+</xml><![endif]-->
+</head>
+
+
+<body>
+  <nav>
+    <center>
+      <h3 class="font-smoothy">Tabuada</h3>
+    </center>
+  </nav>
+  <center>  
+    <hr>
+      <h2 class="font-smoothy">Clique para ver a tabuada do número!</h2>
+       <fieldset>
+        <nav>
+          <center>
+          </center>
+        </nav>
+           <button id="1" onclick="calcular(1)"> <b>1</b></button>  <button id="2" onclick="calcular(2)"> <b>2</b></button>  <button id="3" onclick="calcular(3)"> <b>3</b></button>
+           <br>
+           <br>
+           <button id="4" onclick="calcular(4)"> <b>4</b></button> <button id="5" onclick="calcular(5)"> <b>5</b></button>  <button id="6" onclick="calcular(6)"> <b>6</b></button>
+           <br>
+           <br>
+           <button id="7" onclick="calcular(7)"> <b>7</b></button>  <button id="8" onclick="calcular(8)"> <b>8</b></button>  <button id="9" onclick="calcular(9)"> <b>9</b></button>
+           <br>
+           <br>
+          <b><div id="resposta" style="display: inline"></div></b>
+         </fieldset>   
+  </center>
+  <script src="script.js"></script>
+</body>
+</html>
